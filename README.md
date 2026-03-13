@@ -188,3 +188,4 @@ WHERE TO_JSON_STRING(ml_generate_text_result) LIKE '%高危拦截%';
 ```
 
 **Result:** The query will accurately output the highly critical logs containing actual credential leaks or injection attempts, successfully completing the Zero-ETL multi-cloud AI audit pipeline.
+
